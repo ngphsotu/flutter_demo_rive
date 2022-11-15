@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flare_flutter/flare_actor.dart';
 
-class LoginScreen extends StatefulWidget {
-  const LoginScreen({super.key});
+class DemoRive extends StatefulWidget {
+  const DemoRive({super.key});
 
   @override
-  State<LoginScreen> createState() => _LoginScreenState();
+  State<DemoRive> createState() => _DemoRiveState();
 }
 
-class _LoginScreenState extends State<LoginScreen> {
+class _DemoRiveState extends State<DemoRive> {
   String correctPassword = 'admin';
   String animationType = 'idle';
 
