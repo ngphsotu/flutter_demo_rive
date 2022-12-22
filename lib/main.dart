@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'screen.dart';
+import 'screens/screen.dart';
 
 void main() => runApp(const MyApp());
 
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Deno Rive',
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData(primarySwatch: Colors.teal),
       home: const DemoRive(),
     );
   }
